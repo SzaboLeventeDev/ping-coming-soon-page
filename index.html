@@ -3,9 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
+  
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- inserted links and scripts -->
+  <script src="https://kit.fontawesome.com/3f9c76576a.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+
   <title>Frontend Mentor | Ping coming soon page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -15,28 +19,36 @@
   </style>
 </head>
 <body>
-  <img src="images/logo.svg" alt="website logo">
+  <img src="images/logo.svg" alt="website logo" class="brandLogo">
   <main>
-    <h1>
-      We are launching <strong>soon!</strong>
-    </h1>
+    <div class="title">
+      <h1 class="titleFirstPart">
+        We are launching &nbsp;
+      </h1>
+      <h1 class="titleSecondPart">
+        soon!
+      </h1>
+    </div>
+    
     <p>
       Subscribe and get notified
     </p>
-    <div>
-      <input type="text" name="" id="">
+    <div class="notify">
+      <input type="text" name="" id="" placeholder="Your email adress...">
       <button type="submit">Notify Me</button>
     </div>
+    <img src="images/illustration-dashboard.png" alt="dashboard illustration" class="dashboard_img">
     <div class="social">
-      <ul>
+      <ul class="social_ul">
         <li>
-          <i class="fa-brands fa-facebook"></i>
+          <!-- <img src="images/facebook-brands.svg" alt="Facebook logo"> -->
+          <i class="fa-brands fa-facebook icon"></i>
         </li>
         <li>
-          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-twitter icon"></i>
         </li>
         <li>
-          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-instagram icon"></i>
         </li>
       </ul>
       <p>
