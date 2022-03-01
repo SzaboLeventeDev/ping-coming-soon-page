@@ -36,6 +36,16 @@ main{
 .notify{
     padding: 20px 0;
 }
+.error{
+    color: hsl(354, 100%, 66%);
+    visibility: hidden;
+}
+.errorBorder{
+    border: 1px solid hsl(354, 100%, 66%);
+}
+.showErr{
+    visibility: visible;
+}
 button, input{
     padding: 10px;
     line-height: 2;
